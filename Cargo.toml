@@ -1,0 +1,13 @@
+[package]
+name = "jsonette"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+itoa = "0.4.7"
+jsonette-derive = { version = "0.1.0", path = "derive/" }
+memchr = "2.4.0"
+ryu = "1.0.5"
+
+[dev-dependencies]
+ropey = "1.3.1"
